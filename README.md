@@ -1,1 +1,1 @@
-# THEME - MotChill 2023 - apiionline CMS (for OPHIM CMS)
+composer require apiiphim/apiionline-motchill
