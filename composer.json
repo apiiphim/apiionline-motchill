@@ -1,0 +1,33 @@
+{
+    "name": "apiiphim/apiionline-motchill",
+    "description": "ApiiOnline's motchill theme",
+    "type": "library",
+    "authors": [
+        {
+            "name": "apiionline",
+            "email": "support@apii.online"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^6|^7|^8",
+        "ckfinder/ckfinder-laravel-package": "v3.5.2.1",
+        "apiiphim/apiionline-core": "^1.0.0",
+        "jenssegers/agent": "^2.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ApiiOnline\\ThemeMotchill\\": "src/",
+            "ApiiOnline\\ThemeMotchill\\Database\\Factories\\": "database/factories/",
+            "ApiiOnline\\ThemeMotchill\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ApiiOnline\\ThemeMotchill\\ThemeMotchillServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
